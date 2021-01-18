@@ -158,7 +158,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(output).to include("-----------")
       expect(output).to include(" X | X | X ")
       expect(output).to include("-----------")
-      expect(output).to include("   |   |   ")
+      expect(output).to include(" X | X | X ")
 
       # *** Comment the line below by adding a # at the line start ***
       expect(true).to be(true)
